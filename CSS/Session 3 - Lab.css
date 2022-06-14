@@ -1,0 +1,24 @@
+#aaa{
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+}
+
+#bbb{
+    float: left;
+    margin-right : 30px;
+    padding: 10px;
+    border: 1px solid beige;
+    background-color: beige;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: -174px;
+    margin-left: 20px;
+}
+#ccc{
+    text-align: justify;
+    font-size: 18px;
+}
+#dd{
+    padding-left: 30px;
+}
