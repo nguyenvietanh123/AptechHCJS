@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormAssignment</title>
+    <link rel="stylesheet" href="css/FormAssignment.css">
+</head>
+<body>
+<section class="section main">
+    <div class="container">
+        <div class="tong">
+        <div class="tong1">
+        <h2>Create task</h2>
+        <form method="get" action="#">
+                <input style="height: 30px" size="63" name="Type" type="text" placeholder="Type"/>
+            <br>
+            <div>
+                <select class="z" style="height: 32px"  name="Company">
+                    <option hidden>Company</option>
+                    <option value="VN">Vietnam</option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                </select>
+                &nbsp;&nbsp;
+                <select class="z" style="height: 32px" name="Opportunity"">
+                    <option hidden>Opportunity</option>
+                    <option value="VN" >Vietnam</option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                </select>
+            </div>
+            <div id="optional1">Optional</div>
+            <div>
+                <input style="height: 30px" size="63" name="Task Name" type="text" placeholder="Task Name">
+            </div>
+            <br>
+            <div>
+                <input style="height: 30px" size="63"name="CC" type="text" placeholder="CC">
+            </div>
+            <div id="optional2">Optional</div>
+            <div id="optional3">Nature of request</div>
+            <div>
+                <label><input name="confirm" type="checkbox"/>Ads Review</label>
+            </div>
+            <div>
+                <label><input name="confirm" type="checkbox"/>Keywords Review</label>
+            </div>
+            <div>
+                <label><input name="confirm" type="checkbox"/>Extention Review</label>
+            </div>
+            <div class="current">
+                <div id="optional3">Current reviewable status</div>
+                <div><label><input name="current" type="radio" value="Approved">Approved</label></div>
+                <div><label><input name="current" type="radio" value="Not Approved">Not Approved</label></div>
+            </div>
+        </form>
+        </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
