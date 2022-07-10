@@ -1,0 +1,33 @@
+body{
+    background-color: #1e1d1d;
+}
+.box {
+    border: 1px solid white;
+    width: 900px;
+    height: 150px;
+    margin: 220px 100px;
+    background-color: white;
+    justify-content: space-between;
+}
+.col-content img {
+    padding-left: 10px;
+    width: 150px;
+}
+.col-content h1 {
+    padding-left: 10px;
+    font-size: 55px;
+    padding-top: 30px;
+}
+.col-content h5 {
+    color: #74797e;
+    font-size: 20px;
+    margin-left: -20px;
+}
+.col-content h2 {
+    padding-left: 125px;
+}
+.col-content h4 {
+    padding-left: 130px;
+}
+
+
