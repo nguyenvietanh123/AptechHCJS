@@ -1,0 +1,74 @@
+.container {
+    margin: 50px 340px ;
+}
+.col-content {
+    width: 600px;
+    height: 200px;
+    background-color: #e3e32e;
+}
+.col-content p {
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+}
+.visa img {
+    width: 230px;
+    height: 80px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.visa .paypal {
+    margin-left: 55px;
+    border: 3px solid black;
+    height: 73px;
+}
+.make {
+    margin-top: 30px;
+    background-color: #de4a4a;
+    border: 1px solid #de4a4a;
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+}
+.john {
+    width: 500px;
+    height: 40px;
+}
+.number {
+    width: 220px;
+    height: 40px;
+}
+.cvv {
+    margin-left: 250px;
+    margin-top: -91px;
+    width: 250px;
+    height: 40px;
+}
+.name {
+    margin-left: 40px;
+}
+.card {
+    margin-left: 40px;
+}
+.date {
+    margin-left: 40px;
+}
+.total {
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 40px;
+}
+.checkout {
+    color: #575555;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+}
+button{
+    margin-top: 30px;
+    background-color: #de4a4a;
+    border: 1px solid #de4a4a;
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+}
